@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App  bg-gray-50 dark:bg-gray-200 sm:text-md">
+    <div className="App  bg-gray-50 dark:bg-gray-200 sm:text-md p-2">
       <Header />
       <AllRoutes />
       <Footer />

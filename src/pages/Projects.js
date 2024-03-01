@@ -1,7 +1,10 @@
+import { Skills } from "../components"
+
 export const Projects = () => {
     return(
         <div>
-            <p>Projects</p>
+            <Skills />
         </div>
+        
     )
 }
