@@ -7,7 +7,6 @@ import { useCookies } from 'react-cookie'
 export const Header = () => {
   const [hidden, setHidden] = useState(true);
   const [search, setSearch] = useState("")
-  const [dropdown, setDropdown] = useState([])
 
   const navigate = useNavigate();
 
