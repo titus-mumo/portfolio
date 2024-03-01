@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useCookies } from 'react-cookie'
 
 export const Header = () => {
   const [hidden, setHidden] = useState(true);
