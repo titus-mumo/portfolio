@@ -2,20 +2,21 @@ import { Skill } from "./Skill";
 
 export const Skills = () => {
     const collections = [
-        { "skill": "JavaScript", "color": "yellow" },
+        { "skill": "JavaScript", "color": "blue" },
         { "skill": "React", "color": "red" },
         { "skill": "Python", "color": "green" },
         { "skill": "HTML", "color": "black" },
         { "skill": "CSS", "color": "brown" },
-        { "skill": "Node.js", "color": "slate" },
+        { "skill": "Node.js", "color": "pink" },
         { "skill": "Django", "color": "violet" },
         { "skill": "PostgreSQL", "color": "orange" },
         { "skill": "Machine Learning", "color": "purple" }
     ];
 
     const learning = [
-        {'skill':"TypeScript", "color": "yellow"},
-        {"skill": "PHP", "color":"green"}
+        {'skill':"TypeScript", "color": "brown"},
+        {"skill": "PHP", "color":"green"},
+        {"skill":"AWS", "color":"orange"}
     ]
 
     return (

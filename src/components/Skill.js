@@ -3,7 +3,10 @@ export const Skill = ({ skill, color }) => {
     const textColor = 'black';
     return (
         <div>
-            <p className={`text-${textColor} bg-${color}-400 text-base m-2 p-1.5 border-1 border-rose-500 rounded-lg`}>{skill}</p>
+            <p 
+            className= "text-white text-base m-2 py-1 px-1.5 rounded-xl font-"
+            style={{background: color}}
+            >{skill}</p>
         </div>
     );
 };
