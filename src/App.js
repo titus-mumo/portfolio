@@ -1,4 +1,5 @@
-import { Header, Footer } from './components/index';
+import { Footer } from './components/index';
+import { Header } from './components/header';
 import { AllRoutes } from './routes/AllRoutes';
 import './App.css';
 
