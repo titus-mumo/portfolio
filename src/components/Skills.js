@@ -1,13 +1,14 @@
 import { Skill } from "./Skill";
+import React from "react";
 
 export const Skills = () => {
     const collections = [
-        { "skill": "JavaScript", "color": "blue" },
+        { "skill": "JavaScript", "color": "#77C3EC" },
         { "skill": "React", "color": "red" },
         { "skill": "Python", "color": "green" },
         { "skill": "HTML", "color": "black" },
         { "skill": "CSS", "color": "brown" },
-        { "skill": "Node.js", "color": "pink" },
+        { "skill": "Node.js", "color": "green" },
         { "skill": "Django", "color": "violet" },
         { "skill": "PostgreSQL", "color": "orange" },
         { "skill": "Machine Learning", "color": "purple" }
@@ -20,9 +21,9 @@ export const Skills = () => {
     ]
 
     return (
-        <div>
+        <div className="flex flex-col justify-center w-full">
             <p>My Skills</p>
-            <div className="flex flex-wrap justify-normal">
+            <div className="flex flex-wrap justify-center w-full">
                 {collections.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />
@@ -30,7 +31,7 @@ export const Skills = () => {
                 })}
             </div>
             <p>I'm currently Learning</p>
-            <div className="flex flex-wrap justify-normal">
+            <div className="flex flex-wrap justify-around">
                 {learning.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />

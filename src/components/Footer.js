@@ -3,31 +3,9 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow m-2 dark:bg-gray-800">
-        <p className="p-2 text-lg font-medium text-black dark:text-white">Titus</p>
+    <footer className="bg-gray-200 rounded-lg shadow m-2 flex flex-wrap justify-around" >
+        <p className="p-2 text-lg font-medium text-black">Done with love</p>
+        <p className="p-2 text-lg font-medium text-black">Copyright © 2024 Titus Mumo . All rights reserved</p>
     </footer>
   )
-}
-
-    // <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-    //   <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link to="/" className="hover:underline">OpulantDashboard™</Link>. All Rights Reserved.
-    //           </span>
-    //           <a href='https://www.buymeacoffee.com/titusk' className="mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0 hover:cursor-pointer hover:underline"> Buy me coffee </a>
-    // <ul className="flex flex-wrap items-center justify-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-    //     <li>
-    //         <a href="https://github.com/titus-mumo" className="mr-4 hover:underline md:mr-6 ">Github</a>
-    //     </li>
-    //     <li>
-    //         <a href="https://www.linkedin.com/in/titus-mumo-a9971926a/" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
-    //     </li>
-    //     <li>
-    //         <a href="https://twitter.com/TitusKennedy9" className="mr-4 hover:underline md:mr-6">Twitter</a>
-    //     </li>
-    //     <li>
-    //         <a href="https://www.instagram.com/_tito_ken/" className="mr-4 hover:underline md:mr-6">Instagram</a>
-    //       </li>
-    //       <li>
-    //         <a href="https://www.spotify.com" className="mr-4 hover:underline md:mr-6">Spotify</a>
-    //       </li>    
-    // </ul>
-    // </div>
+};
