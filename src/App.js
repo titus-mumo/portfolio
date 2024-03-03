@@ -8,7 +8,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App  bg-gray-50 dark:bg-gray-200 sm:text-md p-2">
+    <div className="App  bg-gray-50 dark:bg-black sm:text-md p-2">
       <Header />
       <Home />
       <About />
