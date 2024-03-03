@@ -2,6 +2,8 @@ import React from "react"
 
 export const Contact = () => {
     return(
+        <div>
+        <p className='text-3xl font-semibold text-yellow-500'>SOCIALS</p>
         <div className="flex items-center justify-center flex-col sm:flex-rol">
         <div className="flex flex-col justify-start">
             <p>You can reach me on:</p>
@@ -54,6 +56,7 @@ export const Contact = () => {
             </ul>
         </div>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+        </div>
         </div>
     )
 }

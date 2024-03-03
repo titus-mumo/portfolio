@@ -10,7 +10,7 @@ export const Project = ({ title, img, alt, description, github, demo, techstack 
                 </div>
                 <div>
                     <p className="dark:text-white">{description}</p>
-                    <a href={demo} className="text-blue-400 hover:underline">Live Demo</a><br></br>
+                    {demo && <div><a href={demo} className="text-blue-400 hover:underline">Live Demo</a><br></br></div>}
                     <a href={github} className="text-blue-400 hover:underline">View Code on Github</a><br></br>
                     
                     {techstack.map((technology, index) => (
@@ -19,5 +19,5 @@ export const Project = ({ title, img, alt, description, github, demo, techstack 
                 </div>
             </div>
         </div>
-    );
+    )
 };

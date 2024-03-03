@@ -2,22 +2,26 @@ import { Link } from "react-router-dom"
 import React from "react"
 
 export const Home = () => {
-    const handleHireMe = () => {
-
-    }
 
     return(
-        <main className="">
-        <Link onClick={handleHireMe}>
-            <div className="bg-purple-700 rounded-lg shadow m-4 hover:cursor-pointer flex items-center" >
-                <div className="w-full h-full mx-auto max-w-screen-xl p-2 flex items-center justify-around">
-                    <span className="text-base text-white text-center md:text-lg">Big news! I'm officially looking for my next role
-                    </span>
-                    <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-900">Hire me</button>  
-                </div>
-                <p className='text-white font-bold md:mx-4 mx-3 border px-2 py-1 rounded-md hover:cursor-pointer'>X</p>
+        <main className="sm:w-sm m-2 content-center dark:text-white dark:bg-black p-2 rounded-md shadow-1">
+            <h1 className='text-5xl md:m-10 m-5'><b>Hi, I am <span className='text-yellow-500'>Titus Mumo</span></b>
+            </h1>
+            <div >
+            <p className='text-2xl w-auto'>
+             I am a junior fullstack developer and a data science specialist.
+            </p>
+            <p className='text-2xl'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
             </div>
-        </Link>
+            <div>
+                <a target="_blank" href="https://twitter.com/justTitusk" className="st-social-btn">
+              <i className="fab fa-twitter w-10 h-auto"></i>
+            </a>
+                <a target="_blank" href="https://github.com/titus-mumo" className="st-social-btn active">
+              <i className="fab fa-github w-10"></i>
+            </a>
+            </div>
+
         </main>
     )
 }

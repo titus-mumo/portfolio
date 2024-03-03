@@ -22,7 +22,7 @@ export const Skills = () => {
 
     return (
         <div className="flex flex-col justify-center w-full">
-            <p>My Skills</p>
+            <p className='text-3xl font-semibold text-yellow-500'>SKILLS</p>
             <div className="flex flex-wrap justify-center w-full">
                 {collections.map((collection, index) => {
                     return (
@@ -30,7 +30,7 @@ export const Skills = () => {
                     );
                 })}
             </div>
-            <p>I'm currently Learning</p>
+            <p className='text-3xl font-semibold text-yellow-500'>LEARNING</p>
             <div className="flex flex-wrap justify-around">
                 {learning.map((collection, index) => {
                     return (
