@@ -8,7 +8,10 @@ export const Contact = () => {
         <div className="flex flex-col justify-start">
             <p>You can reach me on:</p>
             <ul className="dark:text-white">
-            <li className="dark:text-white"><i className="fab fa-whatsapp w-10"></i>+254 701 901 186</li>
+            <li className="dark:text-white">
+                <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn active">
+                <i className="fab fa-whatsapp w-10"></i></a>
+                </li>
             <li className="dark:text-white">
                 <span className="dark:text-white">tituskennedy74@gmail.com</span>
             </li>

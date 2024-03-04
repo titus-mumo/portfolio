@@ -5,7 +5,7 @@ export const Education = () => {
         <div className='m-auto'>
             <p className='text-3xl font-semibold text-yellow-500'>EDUCATION</p>
             <div className="dark:text-white">
-                <p><spa>2019-2023</spa><br></br><span>BSc. (Computer Science) - </span><spa>Kenyatta University</spa> </p>
+                <p><span className="dark:text-gray-400 text-gray-700">2019 - 2023</span><br></br><span>BSc. (Computer Science) - </span><spa>Kenyatta University</spa> </p>
             </div>
         </div>
     )
