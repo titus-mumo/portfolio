@@ -15,15 +15,15 @@ export const Skills = () => {
     ];
 
     const learning = [
-        {'skill':"TypeScript", "color": '50%'},
+        {'skill':"TypeScript", "color":'60%'},
         {"skill": "PHP", "color":'50%'},
         {"skill":"AWS", "color":'45%'}
     ]
 
     return (
-        <div className="flex flex-col justify-center w-full">
+        <div className="flex flex-col justify-center content-center">
             <p className='text-3xl font-semibold text-yellow-500'>SKILLS</p>
-            <div className="flex flex-col justify-center sm:w-90vw w-90 m-auto">
+            <div className="flex flex-col justify-center max-w-screen-md content-center">
                 {collections.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />
@@ -31,7 +31,7 @@ export const Skills = () => {
                 })}
             </div>
             <p className='text-3xl font-semibold text-yellow-500'>LEARNING</p>
-            <div className="flex flex-col justify-center w-auto m-auto">
+            <div className="flex flex-col justify-center max-w-screen-md content-center">
                 {learning.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />
