@@ -9,6 +9,9 @@ export const Contact = () => {
         <div className="flex flex-col justify-start">
             <p>You can reach me on:</p>
             <ul className="dark:text-white">
+                <li className="dark:text-white">
+                <span className="dark:text-white">+254 701 901 186</span>
+            </li>
             <li className="dark:text-white">
                 <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn active">
                 <FontAwesomeIcon icon="fab fa-whatsapp w-10" className="text-lg hover:text-xl transform scroll-smooth scale-125 m-2 md:m-3 hover:ease-in-out"/></a>

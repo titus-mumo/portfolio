@@ -9,10 +9,10 @@ export const Home = () => {
             <h1 className='text-5xl md:m-10 m-5'><b>Hi, I am <span className='text-yellow-500'>Titus Mumo</span></b>
             </h1>
             <div className='flex flex-col justify-center items-center content-center sm:text-xl '>
-            <p className='text-lg w-sm sm:text-xl'>
+            <p className='w-sm sm:text-xl'>
              I am a junior fullstack developer and a data science specialist.
             </p>
-            <p className='text-2xl max-w-screen-md flex items-center justify-center sm:text-xl'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
+            <p className='max-w-screen-md flex items-center justify-center sm:text-xl'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
             </div>
             <div>
                 <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn">

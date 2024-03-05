@@ -18,7 +18,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <div className='flex flex-wrap justify-around'>
+      <div className='flex flex-wrap justify-around items-start'>
         <Experience />
         <Education />
       </div>

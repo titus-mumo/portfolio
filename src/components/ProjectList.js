@@ -11,7 +11,7 @@ export const ProjectList = () => {
 
     return(
         <div className="projects flex flex-rol justify-center items-center mb-5 sm:mb-10 md:mb-15">
-            <div className='w-11/12 sm-7/8 md:w-3/6'>
+            <div className='w-11/12 sm:w-7/8 md:w-1/2'>
             <p className='text-3xl font-semibold text-yellow-500'>PROJECTS</p>
             <div className='flex justify-center flex-col content-center m-auto'>
                 <Project title = "HealthAIassist" img = {medicine} alt="medicine image" description = "A disease diagnosis (using ML and NLP), doctor recommendation(includes giving directions, integration with Google Maps APIs), and medical prescription system created using Django" demo= "" github="https://github.com/titus-mumo/HealthAIassist" techstack={medstack} />

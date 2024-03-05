@@ -22,16 +22,17 @@ export const Skills = () => {
     ]
 
     return (
-        <div className="skills flex flex-col justify-between content-center mb-5 sm:mb-10 md:mb-15">
+        <div className="skills flex flex-col justify-center content-center mb-5 sm:mb-10 md:mb-20">
+            <div className='md:w-5/6 md:m-auto'>
             <p className='text-3xl font-semibold text-yellow-500'>SKILLS</p>
-            <div className='flex flex-wrap justify-center md:flex-row'>
-            <p className="text-black dark:text-white text-md sm:text-xl max-w-screen-md flex justify-center content-center">
+            <div className='flex flex-wrap justify-center md:justify-around'>
+            <p className="text-black dark:text-white text-md sm:text-xl max-w-screen-md flex justify-center content-center md:w-1/3">
                 I am a flexible developer skilled in various technologies such as Python, Django, JavaScript, Node.js, PostgreSQL, and MongoDB. 
                 My passion lies in building efficient and scalable solutions. In backend development, 
                 I specialize in creating sturdy applications using Python and Node.js. With a solid grasp of databases, 
                 I excel in utilizing MongoDB for adaptable NoSQL solutions and PostgreSQL for organized and transactional data handling
             </p>
-            <div className="flex flex-col justify-center content-center w-5/6 md:w-4/6">
+            <div className="flex flex-col justify-center content-center w-5/6 md:w-1/3">
                 {collections.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />
@@ -40,16 +41,17 @@ export const Skills = () => {
             </div>
             </div>
             <p className='text-3xl font-semibold text-yellow-500'>LEARNING</p>
-            <div className='flex flex-wrap justify-center'>
-            <p className="text-black dark:text-white text-md sm:text-xl flex justify-center content-center md:w-4/6 font-light sm:font-thin">
-                In the tech journey, the learning never stops. Below is a layout of the technologies I'm learning currently and my personal assessment of the progress so far
+            <div className='flex flex-wrap justify-center md:justify-around'>
+            <p className="text-black dark:text-white text-md sm:text-xl flex md:justify-around justify-center content-center md:w-1/3 font-light sm:font-thin">
+                In the tech journey, the learning never stops. This is a layout of the technologies I'm learning currently and my personal assessment of the progress so far
             </p>
-            <div className="flex flex-col justify-center content-center w-5/6 md:w-4/6">
+            <div className="flex flex-col justify-center content-center w-5/6 md:w-1/3">
                 {learning.map((collection, index) => {
                     return (
                         <Skill key={index} skill={collection.skill} color={collection.color} />
                     );
                 })}
+            </div>
             </div>
             </div>
         </div>
