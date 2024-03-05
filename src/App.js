@@ -18,11 +18,11 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <div className='flex flex-wrap justify-around items-start'>
+      <div className='flex flex-wrap justify-around items-start m-10'>
         <Experience />
         <Education />
       </div>
-      <div className='flex flex-wrap justify-around'>
+      <div className='flex flex-wrap justify-around m-5'>
         <Collaborate />
         <Contact />
       </div>

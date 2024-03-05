@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export const Home = () => {
 
     return(
-        <main className="home sm:w-sm m-2 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15">
+        <main className="home sm:w-sm m-2 mt-20 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15">
             <h1 className='text-5xl md:m-10 m-5'><b>Hi, I am <span className='text-yellow-500'>Titus Mumo</span></b>
             </h1>
             <div className='flex flex-col justify-center items-center content-center sm:text-xl '>

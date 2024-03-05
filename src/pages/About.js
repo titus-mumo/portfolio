@@ -27,7 +27,13 @@ export const About = () => {
                      insight into my coding style and problem-solving approach. If you're seeking a committed and adept programmer 
                      to help breathe life into your ideas, I'm eager to collaborate with you!
                 </p>
-                <button href="https://drive.google.com/uc?export=download&id=1w2mHFxUg6f3a01F6vTC6A1a6OHz6309v" className='m-3 md:m-4 bg-yellow-400 p-1 rounded-xl'>Download Resume</button>
+                <div className='flex justify-left flex-col m-5 text-base '>
+                <p className="dark:text-gray-400 text-gray-700">Phone: +254 701 901 186</p>
+                <p className="dark:text-gray-400 text-gray-700">Email: tituskennedy74@gmail.com</p>
+                <p className="dark:text-gray-400 text-gray-700">Country: Nairobi | Kenya</p>
+                <p className="dark:text-gray-400 text-gray-700">Languages: English, Swahili</p>
+                </div>
+                <button href="https://drive.google.com/uc?export=download&id=1w2mHFxUg6f3a01F6vTC6A1a6OHz6309v" className='m-3 md:m-4 bg-yellow-400 p-1 rounded-2xl'>Download CV</button>
             </div>
         </div>
     )
