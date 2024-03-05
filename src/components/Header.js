@@ -24,7 +24,7 @@ export const Header = () => {
 
   return (
     <header>      
-      <nav className="bg-gray-100 border-b-2 border-white block sticky w-full z-20 top-0 start-0 px-2 sm:px-4 py-2 dark:bg-gray-800 dark:border-b-1 dark:border-gray-700 shadow-2 rounded-lg">
+      <nav className="bg-gray-300 border-b-2 border-white block sticky w-full z-20 top-0 start-0 px-2 sm:px-4 py-2 dark:bg-gray-800 dark:border-b-1 dark:border-gray-700 shadow-2 rounded-lg">
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center hover:cursor-pointer">
               <img src={Logo} className="mr-2 h-8 sm:h-9" alt="Movie-API Logo" />

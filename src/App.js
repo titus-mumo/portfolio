@@ -5,6 +5,11 @@ import { Experience } from './components/Experience';
 import { Projects, Contact, Home, Collaborate, About, Support } from './pages';
 import './App.css';
 import React from 'react';
+import { faTwitter, faGithub, faLinkedin, faWhatsapp,  } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+
+library.add(faTwitter, faGithub, faLinkedin, faWhatsapp)
 
 function App() {
   return (

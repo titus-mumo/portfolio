@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const Home = () => {
 
@@ -8,17 +9,17 @@ export const Home = () => {
             <h1 className='text-5xl md:m-10 m-5'><b>Hi, I am <span className='text-yellow-500'>Titus Mumo</span></b>
             </h1>
             <div className='flex flex-col justify-center items-center content-center sm:text-xl '>
-            <p className='text-2xl w-sm sm:text-xl'>
+            <p className='text-lg w-sm sm:text-xl'>
              I am a junior fullstack developer and a data science specialist.
             </p>
             <p className='text-2xl max-w-screen-md flex items-center justify-center sm:text-xl'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
             </div>
             <div>
-                <a target="_blank" href="https://twitter.com/justTitusk" className="st-social-btn">
-              <i className="fab fa-twitter w-10 h-auto"></i>
+                <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn">
+              <FontAwesomeIcon icon='fab fa-whatsapp' className="text-xl hover:text-2xl transform scroll-smooth scale-125 m-5 p-1.5 hover:p-1 hover:ease-in-out"/>
             </a>
                 <a target="_blank" href="https://github.com/titus-mumo" className="st-social-btn active">
-              <i className="fab fa-github w-10"></i>
+              <FontAwesomeIcon icon='fab fa-github' className="text-xl hover:text-2xl transform scroll-smooth scale-125 m-5 p-1.5 hover:p-1 hover:ease-in-out"/>
             </a>
             </div>
 

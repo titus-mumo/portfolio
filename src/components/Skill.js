@@ -8,7 +8,7 @@ export const Skill = ({ skill, color }) => {
             if (progress < parseInt(color)) {
                 setProgress(progress + 1);
             }
-        }, eval(200- parseInt(color)));
+        }, eval(300 - parseInt(color)));
 
         return () => clearInterval(interval);
     }, [progress]);

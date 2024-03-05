@@ -1,4 +1,5 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const Contact = () => {
     return(
@@ -10,19 +11,19 @@ export const Contact = () => {
             <ul className="dark:text-white">
             <li className="dark:text-white">
                 <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn active">
-                <i className="fab fa-whatsapp w-10"></i></a>
+                <FontAwesomeIcon icon="fab fa-whatsapp w-10" className="text-lg hover:text-xl transform scroll-smooth scale-125 m-2 md:m-3 hover:ease-in-out"/></a>
                 </li>
             <li className="dark:text-white">
                 <span className="dark:text-white">tituskennedy74@gmail.com</span>
             </li>
             <li className="dark:text-white">
                 <a target="_blank" href="https://twitter.com/justTitusk" className="st-social-btn active">
-              <i className="fab fa-twitter w-10"></i>
+              <FontAwesomeIcon icon="fab fa-twitter w-10" className="text-lg hover:text-xl transform scroll-smooth scale-125 m-2 md:m-3 hover:ease-in-out"/>
             </a>
             </li>
             <li>
                 <a target="_blank" href="https://www.linkedin.com/in/titus-mumo-a9971926a/" className="st-social-btn active">
-              <i className="fab fa-linkedin w-10"></i>
+              <FontAwesomeIcon icon="fab fa-linkedin w-10" className="text-lg hover:text-xl transform scroll-smooth scale-125 m-2 md:m-3 hover:ease-in-out"/>
             </a>
             </li>
             </ul>
@@ -32,7 +33,7 @@ export const Contact = () => {
             <ul>
                 <li>
                 <a target="_blank" href="https://github.com/titus-mumo" className="st-social-btn active">
-              <i className="fab fa-github w-10"></i>
+              <FontAwesomeIcon icon="fab fa-github w-10" className="text-lg hover:text-xl transform scroll-smooth scale-125 m-2 md:m-3 hover:ease-in-out"/>
             </a>
                 </li>
             </ul>
