@@ -1,12 +1,29 @@
 import { Link } from "react-router-dom"
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export const Home = () => {
+    const officialName = "Titus Mumo"
+    const [name, setName] = useState("T")
+    useEffect(() => {
+        
+        if(officialName !== name){
+            setTimeout(function(){
+                const nameLength = name.length
+                const character = officialName[nameLength]
+                setName(name.concat(character))
+            }, 200)
+        }else{
+            setTimeout(function(){
+                setName("T")
+            }, 1000)
+            
+        }
+    }, [name, officialName])
 
     return(
         <main className="home sm:w-sm m-2 mt-20 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15">
-            <h1 className='text-5xl md:m-10 m-5'><b>Hi, I am <span className='text-yellow-500'>Titus Mumo</span></b>
+            <h1 className='text-5xl md:m-10 m-5'><b><span className='text-4xl'>Hi, I am </span><br></br><span className='text-yellow-500'>{name}</span></b>
             </h1>
             <div className='flex flex-col justify-center items-center content-center sm:text-xl '>
             <p className='w-sm sm:text-xl'>
