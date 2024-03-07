@@ -42,7 +42,7 @@ export const Skills = () => {
             </div>
             <p className='text-3xl font-semibold text-yellow-500'>LEARNING</p>
             <div className='flex flex-wrap justify-center md:justify-around'>
-            <p className="text-black dark:text-white text-md sm:text-xl flex md:justify-around justify-center content-center md:w-1/3 font-light sm:font-thin">
+            <p className="text-black dark:text-white text-md sm:text-xl flex md:justify-around justify-center content-center md:w-1/3 sm:font-thin">
                 In the tech journey, the learning never stops. This is a layout of the technologies I'm learning currently and my personal assessment of the progress so far
             </p>
             <div className="flex flex-col justify-center content-center w-5/6 md:w-1/3">
