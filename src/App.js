@@ -8,12 +8,33 @@ import React from 'react';
 import { faTwitter, faGithub, faLinkedin, faWhatsapp,  } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
+import { useMemo, useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react"; 
+import { loadSlim } from "@tsparticles/slim";
 
 library.add(faTwitter, faGithub, faLinkedin, faWhatsapp)
 
+
 function App() {
+  const [init, setInit] = useState(false);
+useEffect(() => {
+    initParticlesEngine(async (engine) => {
+            await loadSlim(engine);
+      //await loadBasic(engine);
+    }).then(() => {
+      setInit(true);
+    });
+  }, []);
+    const particlesLoaded = (container) => {
+    console.log(container);
+  };
   return (
-    <div className="App  bg-gray-200 dark:bg-gray-900 sm:text-md p-2">
+    <div className="App  bg-gray-200 dark:bg-gray-900 sm:text-md p-2 particles-js" id='tsparticles'>
+      <Particles
+        id="tsparticles"
+        url="./particles.js"
+        particlesLoaded={particlesLoaded}
+      />
       <Header />
       <Home />
       <About />
