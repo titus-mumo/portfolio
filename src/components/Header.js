@@ -27,7 +27,7 @@ export const Header = () => {
       <nav className={`bg-gray-300 border-b-2 border-white fixed w-full z-20 top-0 start-0 px-2 sm:px-4 py-2 dark:bg-gray-800 dark:border-b-1 dark:border-gray-700 shadow-2 rounded-lg`}>
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center hover:cursor-pointer">
-              <img src={Logo} className="mr-2 h-8 sm:h-9" alt="Movie-API Logo" />
+              <img src={Logo} className="mr-2 h-8 sm:h-9" alt="Titus" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
           </Link>
 

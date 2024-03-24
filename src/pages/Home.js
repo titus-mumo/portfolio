@@ -22,14 +22,14 @@ export const Home = () => {
     }, [name, officialName])
 
     return(
-        <main className="home sm:w-sm m-2 mt-20 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15">
-            <h1 className='text-5xl md:m-10 m-5'><b><span className='text-4xl'>Hi, I am </span><br></br><span className='text-yellow-500'>{name}</span></b>
+        <main className="home w-auto m-2 mt-5 md:mt-20 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15 mx-1 md:mx-5 shadow">
+            <h1 className='text-4xl md:m-10 m-5'><b><span className='text-3xl'>Hi, I am </span><br></br><span className='text-yellow-500'>{name}</span></b>
             </h1>
-            <div className='flex flex-col justify-center items-center content-center sm:text-xl '>
-            <p className='w-sm sm:text-xl'>
+            <div className='flex flex-col justify-center items-center align-center sm:text-xl '>
+            <p className='w-sm text-sm md:text-base flex align-left justify-center'>
              I am a junior fullstack developer and a data science specialist.
             </p>
-            <p className='max-w-screen-md flex items-center justify-center sm:text-xl'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
+            <p className='max-w-screen-md flex align-center justify-center text-sm md:text-base'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
             </div>
             <div>
                 <a target="_blank" href="https://wa.me/+254701901186" className="st-social-btn">

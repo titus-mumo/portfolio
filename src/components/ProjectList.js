@@ -10,7 +10,7 @@ export const ProjectList = () => {
     const medstack = ["Python", "Django", "JavaScript", "ML", "Google Maps APIs" , "NLP", "PostgreSQL"]
 
     return(
-        <div className="projects flex flex-rol justify-center items-center mb-5 sm:mb-10 md:mb-15">
+        <div className="projects flex flex-rol justify-center items-center mb-5 sm:mb-10 md:mb-15 w-100">
             <div className='w-11/12 sm:w-7/8 md:w-1/2'>
             <p className='text-3xl font-semibold text-yellow-500'>PROJECTS</p>
             <div className='flex justify-center flex-col content-center m-auto'>

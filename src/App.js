@@ -8,33 +8,12 @@ import React from 'react';
 import { faTwitter, faGithub, faLinkedin, faWhatsapp,  } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
-import { useMemo, useEffect, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react"; 
-import { loadSlim } from "@tsparticles/slim";
-
 library.add(faTwitter, faGithub, faLinkedin, faWhatsapp)
 
 
 function App() {
-  const [init, setInit] = useState(false);
-useEffect(() => {
-    initParticlesEngine(async (engine) => {
-            await loadSlim(engine);
-      //await loadBasic(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
-    const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
-    <div className="App  bg-gray-200 dark:bg-gray-900 sm:text-md p-2 particles-js" id='tsparticles'>
-      <Particles
-        id="tsparticles"
-        url="./particles.js"
-        particlesLoaded={particlesLoaded}
-      />
+    <div className="App  bg-gray-200 dark:bg-gray-800 sm:text-base p-2 particles-js" id='tsparticles w-100'>
       <Header />
       <Home />
       <About />
@@ -43,7 +22,7 @@ useEffect(() => {
         <Experience />
         <Education />
       </div>
-      <div className='flex flex-wrap justify-around m-5'>
+      <div className='flex flex-wrap justify-around m-5  bg-gray-200 dark:bg-gray-900 rounded-md p-1 md:p-2'>
         <Collaborate />
         <Contact />
       </div>
