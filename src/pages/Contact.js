@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export const Contact = () => {
     return(
         <div>
-        <p className='text-3xl font-semibold text-yellow-500'>SOCIALS</p>
+        <p className='text-2xl font-semibold text-yellow-500'>SOCIALS</p>
         <div className="flex items-center justify-center flex-col sm:flex-rol dark:text-white">
         <div className="flex flex-col justify-start text-sm md:text-base">
             <p>You can reach me on:</p>

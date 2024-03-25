@@ -41,7 +41,7 @@ export const Collaborate = () => {
 
     return(
         <div className="collaborations sm:w-sm">
-            <p className='text-3xl font-semibold text-yellow-500'>COLLABORATIONS</p>
+            <p className='text-2xl font-semibold text-yellow-500'>COLLABORATIONS</p>
             <Toaster className='dark:bg-gray-900 dark:text-white text-black bg-white'/>
             <p className="text-sm md:text-base m-2 dark:text-white">Interested in working together? Let's talk:</p>
             <form className="max-w-md mx-auto sm:max-w-sm dark:bg-gray-600 p-5 rounded-lg shadow-2 bg-white" method="post" onSubmit={e => handleSubmit(e)}>

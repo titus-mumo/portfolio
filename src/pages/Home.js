@@ -22,8 +22,8 @@ export const Home = () => {
     }, [name, officialName])
 
     return(
-        <main className="home w-auto m-2 mt-5 md:mt-20 content-center dark:text-white dark:bg-gray-900 p-2 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15 mx-1 md:mx-5 shadow">
-            <h1 className='text-4xl md:m-10 m-5'><b><span className='text-3xl'>Hi, I am </span><br></br><span className='text-yellow-500'>{name}</span></b>
+        <main className="home w-auto m-2 p-10 content-center dark:text-white dark:bg-gray-900 bg-gray-200 rounded-md shadow-1 mb-5 sm:mb-10 md:mb-15 mx-1 md:mx-5 shadow">
+            <h1 className='text-4xl md:m-10 m-5'><b><span className='text-2xl'>Hi, I am </span><br></br><span className='text-yellow-500'>{name}</span></b>
             </h1>
             <div className='flex flex-col justify-center items-center align-center sm:text-xl '>
             <p className='w-sm text-sm md:text-base flex align-left justify-center'>
