@@ -22,9 +22,9 @@ export const Skills = () => {
     ]
 
     return (
-        <div className="skills  bg-gray-200 dark:bg-gray-900 rounded-md p-1 md:p-2 flex flex-col justify-center content-center mb-5 sm:mb-10 md:mb-20 mx-1 md:mx-5">
+        <div className="skills  bg-gray-200 dark:bg-gray-900 rounded-md p-1 md:p-2 flex flex-col justify-center content-center mb-5 sm:mb-10 md:mb-20 mx-1 md:mx-5 shadow">
             <div className='md:w-5/6 md:m-auto'>
-            <p className='text-3xl font-semibold text-yellow-500'>SKILLS</p>
+            <p className='text-2xl font-semibold text-yellow-500'>SKILLS</p>
             <div className='flex flex-wrap justify-center md:justify-around'>
             <p className="text-black dark:text-white text-sm md:text-base max-w-screen-md flex justify-center content-center md:w-1/3 h-100 items-center">
                 I am a flexible developer skilled in various technologies such as Python, Django, JavaScript, Node.js, PostgreSQL, and MongoDB. 
@@ -40,7 +40,7 @@ export const Skills = () => {
                 })}
             </div>
             </div>
-            <p className='text-3xl font-semibold text-yellow-500'>LEARNING</p>
+            <p className='text-2xl font-semibold text-yellow-500'>LEARNING</p>
             <div className='flex flex-wrap justify-center md:justify-around'>
             <p className="text-black dark:text-white md:text-base text-sm flex md:justify-around justify-center content-center md:w-1/3 sm:font-thin h-100 items-center">
                 In the tech journey, the learning never stops. This is a layout of the technologies I'm learning currently and my personal assessment of the progress so far

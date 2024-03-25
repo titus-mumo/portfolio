@@ -2,7 +2,7 @@ import React from "react";
 
 export const Project = ({ title, img, alt, description, github, demo, techstack }) => {
     return (
-        <div className='my-2 mx-1  p-1.5 md:p-2 bg-white dark:bg-gray-900 rounded-lg w-70'>
+        <div className='my-2 mx-1  p-1.5 md:p-2 bg-gray-200 dark:bg-gray-900 rounded-lg w-70 shadow'>
             <p className="text-xl font-semibold m-2 dark:text-white">{title}</p>
             <div className="flex lg:flex-row justify-center flex-col">
                 <div className='w-100'>
