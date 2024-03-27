@@ -1,16 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   resolve: {
     fallback: {
-      "crypto": false,
-      "os": false,
+      crypto: false,
+      os: false
     }
   },
   module: {
@@ -35,7 +35,11 @@ module.exports = {
       },
       {
         test: /\.svg$/,
-      use: ['@svgr/webpack'],
+        use: ['@svgr/webpack']
+      },
+      {
+        test: /\.pdf$/,
+        use: ['file-loader']
       }
     ]
   },
@@ -45,5 +49,5 @@ module.exports = {
       filename: 'index.html',
       inject: 'body'
     })
-  ],
-};
+  ]
+}

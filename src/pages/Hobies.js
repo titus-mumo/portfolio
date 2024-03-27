@@ -1,7 +1,9 @@
+import React from 'react'
+
 export const Hobies = () => {
-    return(
+  return (
         <div>
             <p>Hobies</p>
         </div>
-    )
+  )
 }

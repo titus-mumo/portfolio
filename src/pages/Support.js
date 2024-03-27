@@ -1,9 +1,9 @@
-import { Chess } from "../components/Chess"
-import { BuyCoffee } from "../components/BuyCoffee"
-import React from "react"
+import { Chess } from '../components/Chess'
+import { BuyCoffee } from '../components/BuyCoffee'
+import React from 'react'
 
 export const Support = () => {
-    return(
+  return (
         <div className="mb-10 mx-1 md:mx-5  bg-gray-200 dark:bg-gray-900 rounded-md p-1 md:p-2 shadow">
             <p className='text-2xl font-semibold text-yellow-500'>EXTRAS</p>
             <div className="flex flex-wrap justify-around">
@@ -11,5 +11,5 @@ export const Support = () => {
             <Chess />
             </div>
         </div>
-    )
+  )
 }
