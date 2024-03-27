@@ -24,7 +24,7 @@ export const Home = () => {
             </h1>
             <div className='flex flex-col justify-center items-center align-center sm:text-xl '>
             <p className='w-sm text-sm md:text-base flex align-left justify-center'>
-             I am a junior fullstack developer and a data science specialist.
+             I am a fullstack developer and a data science specialist.
             </p>
             <p className='max-w-screen-md flex align-center justify-center text-sm md:text-base'>With a passion for building efficient and scalable solutions, I thrive on tackling complex challenges and delivering high-quality software that meets and exceeds client expectations.</p>
             </div>
