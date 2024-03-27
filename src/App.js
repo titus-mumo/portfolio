@@ -23,7 +23,7 @@ function App () {
     await console.log(container)
   }, [])
   return (
-    <div className="App  bg-gray-300 dark:bg-gray-800 sm:text-base p-2 particles-js" id='tsparticles w-100'>
+    <div className="App  bg-gray-500 dark:bg-gray-800 sm:text-base p-2 particles-js" id='tsparticles w-100'>
       <Particles
       id='tsparticles'
       init={loadParticles}
