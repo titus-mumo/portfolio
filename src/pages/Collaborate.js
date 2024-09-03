@@ -18,7 +18,7 @@ export const Collaborate = () => {
     e.preventDefault()
     const name = e.target.name.value
     const email = e.target.email.value
-    const serviceId = 'service_3f87rza'
+    const serviceId = 'service_6qaalzp'
     const templateId = 'template_tri153i'
     try {
       setLoading(true)
